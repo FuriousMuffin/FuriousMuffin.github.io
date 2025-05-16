@@ -1,0 +1,31 @@
+
+.footerJustifyContent-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+ .footerInfo{
+    text-align: left;
+    padding: 0;
+}
+
+.footerContacts,
+.footerRightColumn{
+    text-align: left;
+}
+.footerContacts ul,
+.footerRightColumn ul{
+    list-style: none;
+    padding: 0;
+}
+.footerContacts h3,
+.footerRightColumn h3{
+    text-transform: uppercase;
+}
+
+.copy{
+    padding-bottom: 30px;
+    margin: 0px 0px -30px 0px;
+}
